@@ -1,0 +1,46 @@
+{
+    "name": "darbaoui/laravel-ui-avatars",
+    "description": "generate an avatar image based on the username, size and background color",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darbaoui imad",
+            "email": "darbaoui@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Darbaoui\\Avatar\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Darbaoui\\Avatar\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-f": "vendor/bin/phpunit --filter",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Darbaoui\\Avatar\\AvatarServiceProvider"
+            ],
+            "aliases": {
+                "Avatar": "Darbaoui\\Avatar\\Facades\\Avatar"
+            }
+        }
+    }
+}
