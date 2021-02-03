@@ -1,1 +1,1 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":107:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:1:{s:47:"Darbaoui\Avatar\Tests\AvatarTest::testBasicTest";d:0.167;}}}
+C:37:"PHPUnit\Runner\DefaultTestResultCache":107:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:1:{s:47:"Darbaoui\Avatar\Tests\AvatarTest::testBasicTest";d:0.137;}}}
