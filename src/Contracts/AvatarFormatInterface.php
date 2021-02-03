@@ -2,7 +2,6 @@
 
 namespace Darbaoui\Avatar\Contracts;
 
-
 interface AvatarFormatInterface extends ManagerInterface
 {
     public function getLength();

@@ -2,7 +2,6 @@
 
 namespace Darbaoui\Avatar\Contracts;
 
-
 interface AvatarInterface
 {
     public function name(string $name);
@@ -20,6 +19,6 @@ interface AvatarInterface
     public function rounded();
 
     public function bold();
-    
+
     public function uppercase(bool $uppercase);
 }

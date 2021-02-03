@@ -4,7 +4,6 @@ namespace Darbaoui\Avatar\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-
 class Avatar extends Facade
 {
     /**

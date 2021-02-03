@@ -1,18 +1,19 @@
 <?php
+
 namespace Darbaoui\Avatar;
 
 use Darbaoui\Avatar\Contracts\AvatarThemeInterface;
 
-class AvatarTheme implements AvatarThemeInterface {
+class AvatarTheme implements AvatarThemeInterface
+{
 
     /**
-     * The default theme parameters
-     * @var array 
+     * The default theme parameters.
+     * @var array
      */
-
     private $parameters = [
         'background' => null,
-        'color'      => null
+        'color'      => null,
     ];
 
     /**
@@ -22,7 +23,7 @@ class AvatarTheme implements AvatarThemeInterface {
      * @param  mixed  $value
      * @return void
      */
-    public function set($key,  $value)
+    public function set($key, $value)
     {
         $this->parameters[$key] = $value;
     }
@@ -36,14 +37,14 @@ class AvatarTheme implements AvatarThemeInterface {
     {
         return $this->parameters[$key] ? $this->parameters[$key] : null;
     }
-    
+
     /**
-     * Get the theme parameters
-     * 
+     * Get the theme parameters.
+     *
      * @return array
      */
     public function getParameters(): array
     {
-        return  $this->parameters; 
+        return  $this->parameters;
     }
 }

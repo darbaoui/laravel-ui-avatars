@@ -1,21 +1,23 @@
 <?php
+
 namespace Darbaoui\Avatar;
 
 use Darbaoui\Avatar\Contracts\AvatarFormatInterface;
 
-class AvatarFormat implements AvatarFormatInterface  {
+class AvatarFormat implements AvatarFormatInterface
+{
 
 
     /**
-     * The default format parameters
-     * @var array 
+     * The default format parameters.
+     * @var array
      */
     private $parameters = [
         'rounded' => null,
         'uppercase' => null,
         'bold' => null,
         'length' => 2,
-        'format' => 'png'
+        'format' => 'png',
     ];
 
     /**
@@ -25,7 +27,7 @@ class AvatarFormat implements AvatarFormatInterface  {
      * @param  mixed  $value
      * @return void
      */
-    public function set($key, $value) 
+    public function set($key, $value)
     {
         $this->parameters[$key] = $value;
     }
@@ -35,13 +37,13 @@ class AvatarFormat implements AvatarFormatInterface  {
      *
      * @return mixed|null
      */
-    public function get($key) 
+    public function get($key)
     {
         return $this->parameters[$key] ? $this->parameters[$key] : null;
     }
 
     /**
-     * Get the length parameter
+     * Get the length parameter.
      * 
      * @return mixed|null
      */
@@ -51,26 +53,25 @@ class AvatarFormat implements AvatarFormatInterface  {
     }
 
     /**
-     * Get the format parameter
+     * Get the format parameter.
      * 
      * @return mixed|null
      */
     public function getSvg()
     {
-        return $this->parameters['format'] === 'svg'? $this->parameters['format'] : null;
+        return $this->parameters['format'] === 'svg' ? $this->parameters['format'] : null;
     }
 
     /**
-     * Get the format parameters
+     * Get the format parameters.
      * 
      * @return array
      */
-    public function getParameters (): array
+    public function getParameters(): array
     {
-       return array_merge($this->parameters, [
+        return array_merge($this->parameters, [
             'length' => $this->getLength(),
-            'format' => $this->getSvg()
-       ]);
+            'format' => $this->getSvg(),
+        ]);
     }
-    
 }

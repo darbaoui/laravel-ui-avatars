@@ -6,13 +6,11 @@ use Darbaoui\Avatar\Avatar;
 
 class AvatarServiceProvider extends ServiceProvider
 {
-
     /**
      * Bootstrap the application services.
      */
     public function boot()
     {
-
     }
 
     /**

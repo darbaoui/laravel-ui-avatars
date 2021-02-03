@@ -1,24 +1,24 @@
 <?php
+
 namespace Darbaoui\Avatar;
 
 use Darbaoui\Avatar\Contracts\AvatarSizeInterface;
 
-class AvatarSize implements AvatarSizeInterface  {
+class AvatarSize implements AvatarSizeInterface
+{
 
 
     const AVATAR_MAX_SIZE = 512;
 
     const AVATAR_MIN_SIZE = 64;
 
-
     /**
-     * The default size parameters
-     * @var array 
+     * The default size parameters.
+     * @var array
      */
-
-    private $parameters  = [
+    private $parameters = [
         'size'      => null,
-        'fontSize'  => null
+        'fontSize'  => null,
     ];
 
     /**
@@ -28,14 +28,14 @@ class AvatarSize implements AvatarSizeInterface  {
      * @param  mixed  $value
      * @return void
      */
-    public function set($key, $value) 
+    public function set($key, $value)
     {
         $this->parameters[$key] = $value;
     }
 
     /**
-     * Get the size parameter
-     * 
+     * Get the size parameter.
+     *
      * @return mixed|null
      */
     public function getSize()
@@ -44,27 +44,26 @@ class AvatarSize implements AvatarSizeInterface  {
     }
 
     /**
-     * Get the font-size parameter
-     * 
+     * Get the font-size parameter.
+     *
      * @return mixed|null
      */
     public function getFontSize()
     {
-        $intFontSize = (int) $this->parameters['fontSize']*10;
+        $intFontSize = (int) $this->parameters['fontSize'] * 10;
         return ($intFontSize >= 1 && $intFontSize <= 10) ? $this->parameters['fontSize'] : null;
     }
 
     /**
-     * Get the size parameters
-     * 
+     * Get the size parameters.
+     *
      * @return array
      */
-    public function getParameters (): array
+    public function getParameters(): array
     {
         return [
             'size' => $this->getSize(),
-            'font-size' => $this->getFontSize()
+            'font-size' => $this->getFontSize(),
         ];
     }
-
 }
