@@ -6,7 +6,6 @@ use Darbaoui\Avatar\Contracts\AvatarThemeInterface;
 
 class AvatarTheme implements AvatarThemeInterface
 {
-
     /**
      * The default theme parameters.
      * @var array

@@ -1,4 +1,5 @@
 <?php
+
 namespace Darbaoui\Avatar;
 
 use Illuminate\Support\ServiceProvider;

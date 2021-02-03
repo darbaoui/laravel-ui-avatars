@@ -6,8 +6,6 @@ use Darbaoui\Avatar\Contracts\AvatarFormatInterface;
 
 class AvatarFormat implements AvatarFormatInterface
 {
-
-
     /**
      * The default format parameters.
      * @var array
@@ -44,17 +42,17 @@ class AvatarFormat implements AvatarFormatInterface
 
     /**
      * Get the length parameter.
-     * 
+     *
      * @return mixed|null
      */
-    public function getLength() 
+    public function getLength()
     {
         return $this->parameters['length'] == 1 ? $this->parameters['length'] : null;
     }
 
     /**
      * Get the format parameter.
-     * 
+     *
      * @return mixed|null
      */
     public function getSvg()
@@ -64,7 +62,7 @@ class AvatarFormat implements AvatarFormatInterface
 
     /**
      * Get the format parameters.
-     * 
+     *
      * @return array
      */
     public function getParameters(): array

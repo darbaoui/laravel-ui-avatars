@@ -6,8 +6,6 @@ use Darbaoui\Avatar\Contracts\AvatarSizeInterface;
 
 class AvatarSize implements AvatarSizeInterface
 {
-
-
     const AVATAR_MAX_SIZE = 512;
 
     const AVATAR_MIN_SIZE = 64;
@@ -51,6 +49,7 @@ class AvatarSize implements AvatarSizeInterface
     public function getFontSize()
     {
         $intFontSize = (int) $this->parameters['fontSize'] * 10;
+
         return ($intFontSize >= 1 && $intFontSize <= 10) ? $this->parameters['fontSize'] : null;
     }
 

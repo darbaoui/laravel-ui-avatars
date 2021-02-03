@@ -8,5 +8,4 @@ class AvatarTest extends \Orchestra\Testbench\TestCase
     {
         $this->assertTrue(true);
     }
-
 }

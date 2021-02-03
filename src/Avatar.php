@@ -6,7 +6,7 @@ use Darbaoui\Avatar\Contracts\AvatarFormatInterface;
 use Darbaoui\Avatar\Contracts\AvatarInterface;
 use Darbaoui\Avatar\Contracts\AvatarSizeInterface;
 use Darbaoui\Avatar\Contracts\AvatarThemeInterface;
-class Avatar implements AvatarInterface 
+class Avatar implements AvatarInterface
 {
 
     const UI_AVATAR_API = 'https://ui-avatars.com/api/';
@@ -58,7 +58,7 @@ class Avatar implements AvatarInterface
 
         return self::UI_AVATAR_API.'?'.http_build_query($parameters);
     }
-    
+
     /**
      * Define the name param used to generate the letters in the avatar.
      *
@@ -78,7 +78,7 @@ class Avatar implements AvatarInterface
      * @param int $size
      * @return $this
      */
-    public function size (int $size)
+    public function size(int $size)
     {
         $this->avatarSize->set('size', $size);
 
@@ -130,7 +130,7 @@ class Avatar implements AvatarInterface
      * @param int $length
      * @return $this
      */
-    public function length(int $length) 
+    public function length(int $length)
     {
         $this->avatarFormat->set('length', $length);
 
