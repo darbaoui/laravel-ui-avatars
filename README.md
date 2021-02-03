@@ -1,6 +1,6 @@
 # Laravel ui avatar generator based on  https://ui-avatars.com
 
-<a href="https://github.styleci.io/repos/335413763/shield?branch=master"><img src="https://github.styleci.io/repos/335413763/shield?branch=master" alt="StyleCI Shield"></a>
+<a href="https://github.styleci.io/repos/335413763"><img src="https://github.styleci.io/repos/335413763/shield?branch=master" alt="StyleCI Shield"></a>
 <a href="https://travis-ci.com/darbaoui/laravel-ui-avatars"><img src="https://travis-ci.com/darbaoui/laravel-ui-avatars.svg" alt="build:passed"></a>
 <a href="https://packagist.org/packages/darbaoui/laravel-ui-avatars"><img src="https://img.shields.io/packagist/dt/darbaoui/laravel-ui-avatars.svg?style=flat-square" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/darbaoui/laravel-ui-avatars"><img src="https://img.shields.io/packagist/v/darbaoui/laravel-ui-avatars.svg?style=flat-square" alt="Latest Stable Version"></a>
