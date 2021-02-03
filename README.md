@@ -1,5 +1,8 @@
 # Laravel ui avatar generator based on  https://ui-avatars.com
 
+<a href="https://packagist.org/packages/darbaoui/laravel-ui-avatars"><img src="https://img.shields.io/packagist/dt/darbaoui/laravel-ui-avatars.svg?style=flat-square" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/darbaoui/laravel-ui-avatars"><img src="https://img.shields.io/packagist/v/darbaoui/laravel-ui-avatars.svg?style=flat-square" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/darbaoui/laravel-ui-avatars"><img src="https://img.shields.io/packagist/l/darbaoui/laravel-ui-avatars.svg?style=flat-square" alt="License"></a>
 
 ## Installation
 
