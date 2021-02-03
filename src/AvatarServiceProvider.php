@@ -3,7 +3,6 @@
 namespace Darbaoui\Avatar;
 
 use Illuminate\Support\ServiceProvider;
-use Darbaoui\Avatar\Avatar;
 
 class AvatarServiceProvider extends ServiceProvider
 {
