@@ -1,6 +1,6 @@
 {
     "name": "darbaoui/laravel-ui-avatars",
-    "description": "generate an avatar image based on the username, size and background color",
+    "description": "generate an avatar image based on the name, size and background color and more",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.1"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
