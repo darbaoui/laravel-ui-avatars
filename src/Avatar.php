@@ -7,6 +7,9 @@ use Darbaoui\Avatar\Contracts\AvatarInterface;
 use Darbaoui\Avatar\Contracts\AvatarSizeInterface;
 use Darbaoui\Avatar\Contracts\AvatarThemeInterface;
 
+
+
+
 class Avatar implements AvatarInterface
 {
     const UI_AVATAR_API = 'https://ui-avatars.com/api/';
