@@ -24,7 +24,7 @@ class AvatarServiceProvider extends ServiceProvider
             return new Avatar(
                 new AvatarSize(),
                 new AvatarFormat(),
-                new AvatarTheme(),
+                new AvatarTheme()
             );
         });
     }
