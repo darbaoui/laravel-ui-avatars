@@ -9,7 +9,6 @@
 ## Installation
 
 This package requires Laravel 5.4 or higher.
-if your laravel is > 5.4 you can skip the two steps (2, 3) below (Package Auto Discovery 5.5+).
 
 1.  You can install the package via composer:
 
