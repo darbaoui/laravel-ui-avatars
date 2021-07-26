@@ -38,6 +38,16 @@ class Avatar implements AvatarInterface
      *
      * @return string
      */
+    public function get()
+    {
+        return $this->generateAvatarUrl();
+    }
+    
+    /**
+     * Get the ui-avatar url.
+     *
+     * @return string
+     */
     public function __toString()
     {
         return $this->generateAvatarUrl();
