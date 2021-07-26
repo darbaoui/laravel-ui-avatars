@@ -42,7 +42,7 @@ class Avatar implements AvatarInterface
     {
         return $this->generateAvatarUrl();
     }
-    
+
     /**
      * Get the ui-avatar url.
      *
