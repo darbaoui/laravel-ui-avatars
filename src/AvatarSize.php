@@ -12,6 +12,7 @@ class AvatarSize implements AvatarSizeInterface
 
     /**
      * The default size parameters.
+     *
      * @var array
      */
     private $parameters = [

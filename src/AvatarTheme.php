@@ -8,6 +8,7 @@ class AvatarTheme implements AvatarThemeInterface
 {
     /**
      * The default theme parameters.
+     *
      * @var array
      */
     private $parameters = [

@@ -72,7 +72,7 @@ class Avatar implements AvatarInterface
     /**
      * Define the name param used to generate the letters in the avatar.
      *
-     * @param string $name
+     * @param  string  $name
      * @return $this
      */
     public function name(string $name)
@@ -85,7 +85,7 @@ class Avatar implements AvatarInterface
     /**
      * Define the avatar size param in the query it can between 64 and 512.
      *
-     * @param int $size
+     * @param  int  $size
      * @return $this
      */
     public function size(int $size)
@@ -98,7 +98,7 @@ class Avatar implements AvatarInterface
     /**
      * Define the font-size param in the query.
      *
-     * @param float $fontSize
+     * @param  float  $fontSize
      * @return $this
      */
     public function fontSize(float $fontSize)
@@ -111,7 +111,7 @@ class Avatar implements AvatarInterface
     /**
      * Define the font color param in the query.
      *
-     * @param string $background
+     * @param  string  $background
      * @return $this
      */
     public function color(string $color)
@@ -124,7 +124,7 @@ class Avatar implements AvatarInterface
     /**
      * Define the background color param in the query.
      *
-     * @param string $background
+     * @param  string  $background
      * @return $this
      */
     public function background(string $background)
@@ -137,7 +137,7 @@ class Avatar implements AvatarInterface
     /**
      * Define the length param in the query.
      *
-     * @param int $length
+     * @param  int  $length
      * @return $this
      */
     public function length(int $length)
