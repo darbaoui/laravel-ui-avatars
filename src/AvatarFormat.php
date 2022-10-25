@@ -8,6 +8,7 @@ class AvatarFormat implements AvatarFormatInterface
 {
     /**
      * The default format parameters.
+     *
      * @var array
      */
     private $parameters = [
@@ -59,7 +60,6 @@ class AvatarFormat implements AvatarFormatInterface
     {
         return $this->parameters['format'] === 'svg' ? $this->parameters['format'] : null;
     }
-    
 
     /**
      * Get the format parameters.
