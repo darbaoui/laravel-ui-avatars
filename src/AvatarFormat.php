@@ -59,6 +59,7 @@ class AvatarFormat implements AvatarFormatInterface
     {
         return $this->parameters['format'] === 'svg' ? $this->parameters['format'] : null;
     }
+    
 
     /**
      * Get the format parameters.
@@ -69,7 +70,6 @@ class AvatarFormat implements AvatarFormatInterface
     {
         return array_merge($this->parameters, [
             'length' => $this->getLength(),
-            'format' => $this->getSvg(),
         ]);
     }
 }
